@@ -154,16 +154,12 @@ guide for the exam.
 **Each student needs to individually submit their own work.**
 
 1. Create a plain text file called `SUBMISSION.md` directly inside the `homework1`
-   directory with the following information:
-
-   1. Your name and UGA ID number;
-   1. Collaborator names, if any; and
+   directory with your name and UGA ID number.
    
    Here is an example of the contents of `SUBMISSION.md`.
    
    ```
-   1. Sally Smith (811-000-999)
-   2. Collaborators: Joe Allen, Stacie Mack
+   Sally Smith (811-000-999)
    ```
 
 1. Change directories to the parent of `homework1` (e.g., `cd ..` from `homework1`). We will use the 
