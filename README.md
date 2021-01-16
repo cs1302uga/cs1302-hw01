@@ -26,7 +26,8 @@ logged into the Odin server.
 **NOTE:** For each step, please provide in your notes the full command that you typed to make the related 
 action happen along with an explanation of why that command worked. Some commands require multiple options. 
 It is important to not only recall what you typed but also why you typed each of them. You won't need to submit your
-notes in your final submission. However, if done properly, your class notes will serve as a helpful study guide for the exam.
+notes in your final submission. However, if done properly, your exercise notes will serve as a helpful study 
+guide for the exam.
 
 ## Exercise Steps
 
