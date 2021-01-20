@@ -72,6 +72,9 @@ guide for the exam.
 1. Execute the `find` command from directly within your `homework1` directory. If the previous steps were 
    executed correctly, you should see the following output:
    
+   **Note:**  If you see any tilda (~) files, those are just backup copies of older versions 
+   of your files. You can ignore those.
+   
    ```
    .
    ./src
@@ -126,6 +129,9 @@ guide for the exam.
    
 1. Execute the `find` command from directly within your `homework1` directory. If the previous steps were 
    executed correctly, you should see the following output:
+   
+   **Note:**  If you see any tilda (~) files, those are just backup copies of older versions 
+   of your files. You can ignore those.
    
    ```
    .
