@@ -96,9 +96,10 @@ guide for the exam.
 ### Checkpoint 2 Steps
 
 1. Navigate to the `homework1` folder and add a `cs1302.utility` package directory to your hierarchy. 
-   Add a class called `MyMethods` to this package. Add a single, static method to to this class which 
-   takes two `int` variables as parameters and returns the maximum of the two as an `int`. What is the 
-   exact first line of code in `MyMethods.java`?
+   Add a class called `MyMethods` to this package. Add a single, static method to this class. You can
+   give it any valid name you want, but the body of the method should determine and return the bigger of 
+   two `int` values supplied as parameters to the method. These values will be supplied when you call the 
+   method in a later step. What is the exact first line of code in `MyMethods.java`?
    
    **PROTIP** Unless it is specifically stated, it is best to always work from the main project directory. 
    For example, while working on the source code for this exercise, you can modify all of the files without 
