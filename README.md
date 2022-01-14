@@ -116,8 +116,8 @@ guide for the exam.
    Notice the directory hierarchy that was automatically created.
 
 1. Now, modify your `Hello` class.  Have it print out the maximum of two values input by the 
-   user. Use the method from your `MyMethods` utility class. What is the line of code to call this 
-   method, assuming you have **no import statements** in `Hello.java`?
+   user. Use the method from your `MyMethods` utility class. To get user input, please use a valid `Scanner` object.
+   What is the line of code to call this method, assuming you have **no import statements** in `Hello.java`?
   
 1. **TRICKY** What is the command to compile the `Hello` class from the `homework1` directory and place the 
    compiled code into `bin`? Note: there is now a dependency in `Hello.java`. It relies on the code
