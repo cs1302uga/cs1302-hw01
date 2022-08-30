@@ -8,7 +8,8 @@ packages on a Unix system.
 ## Prerequisite Knowledge
 
 * [Emacs Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/emacs/emacs.md)
-* [CSCI 1302 Package Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/packages.md)
+* [CSCI 1302 Package Tutorial - Part 1](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/packages1.md)
+* [CSCI 1302 Package Tutorial - Part 2](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/packages2.md)
 * [Emacs Reference Card](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
 
 ## Course-Specific Learning Outcomes
