@@ -48,7 +48,7 @@ guide for the exam.
    Inside of the `src` directory, create a file called `Hello.java`. Within this file, write a Java 
    program to prompt the user for their name, read in their full name and then output `Hello, <user>` with 
    their name instead of `<user>`. Your program should work **without any import statements**. Sure, 
-   [this is possible](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/packages.md#import-statements)!
+   [this is possible](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/packages2.md#import-statements)!
    In your notes, write the full line of java code to instantiate a `Scanner` object without importing the class.
 
 1. Compile and run your code directly from the default package. Don't use the `-d` option for `javac`
@@ -57,7 +57,7 @@ guide for the exam.
    Once you are confident that it is working, remove the _compiled_ (byte) code (not your source code).
 
 1. Move the `Hello.java` file (source code) into the `cs1302.example` package. What two things must be done to 
-   accomplish this? Hint: [Named Packages](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/packages.md#named-package)
+   accomplish this? Hint: [Named Packages](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/packages1.md#named-package)
 
 1. For better organization, let's separate the source code from the compiled code. Directly inside 
    the `homework1` directory, add a subdirectory called `bin`. This directory will be the default 
@@ -123,7 +123,7 @@ guide for the exam.
 1. **TRICKY** What is the command to compile the `Hello` class from the `homework1` directory and place the 
    compiled code into `bin`? Note: there is now a dependency in `Hello.java`. It relies on the code
    from `MyMethods`, so the compiler needs to know where to find that class. 
-   Hint: [Setting the Class Path](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/packages.md#setting-the-class-path)
+   Hint: [Setting the Class Path](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/packages2.md#setting-the-class-path)
 
 1. Now, add the import statement for `MyMethods` in `Hello.java` and replace applicable fully 
    qualified names with simple names. Rerun your code to make sure it is working. From the `homework1` 
