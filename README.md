@@ -116,8 +116,11 @@ guide for the exam.
    Look in the `bin` directory now that you've compiled both `Hello.java` and `MyMethods.java`. 
    Notice the directory hierarchy that was automatically created.
 
-1. Now, modify your `Hello` class.  Have it print out the maximum of two values input by the 
-   user. Use the method from your `MyMethods` utility class. To get user input, please use a valid `Scanner` object.
+1. Now, modify the `Hello` class in the `Hello.java` file. Have it print out the maximum of two values input by the 
+   user. To accomplish this, in the `main` method of your `Hello` class, you should read two integers from a valid 
+   `Scanner` object and pass those values into the method you created in the `MyMethods` utility class. 
+   In other words, you should call the method in `MyMethods` from the `main` method in your `Hello` class and print
+   the result.
    What is the line of code to call this method, assuming you have **no import statements** in `Hello.java`?
   
 1. **TRICKY** What is the command to compile the `Hello` class from the `homework1` directory and place the 
