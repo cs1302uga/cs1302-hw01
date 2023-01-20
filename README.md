@@ -47,9 +47,9 @@ guide for the exam.
 1. Navigate to the `src` directory. In this example, `src` is the default package directory for source code. 
    Inside of the `src` directory, create a file called `Hello.java`. Within this file, write a Java 
    program to prompt the user for their name, read in their full name and then output `Hello, <user>` with 
-   their name instead of `<user>`. Your program should work **without any import statements**. Sure, 
+   their name instead of `<user>`. <!--Your program should work **without any import statements**. Sure, 
    [this is possible](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/packages2.md#import-statements)!
-   In your notes, write the full line of java code to instantiate a `Scanner` object without importing the class.
+   In your notes, write the full line of java code to instantiate a `Scanner` object without importing the class.-->
 
 1. Compile and run your code directly from the default package. Don't use the `-d` option for `javac`
    in this step. In which directory is the compiled code contained?
