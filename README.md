@@ -1,6 +1,6 @@
 # hw01 Command Line Compilation and Packages
 
-![Approved for: Spring 2023](https://img.shields.io/badge/Approved%20for-Spring%202023-magenta)
+![Approved for: Fall 2023](https://img.shields.io/badge/Approved%20for-Fall%202023-green)
 
 This homework assignment is designed to provide further practice with command-line text editors as well as compiling Java code organized into 
 packages on a Unix system.
