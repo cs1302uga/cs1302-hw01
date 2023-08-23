@@ -44,17 +44,31 @@ guide for the exam.
                 |--- example
    ```
 
-1. Navigate to the `src` directory. In this example, `src` is the default package directory for source code. 
-   Inside of the `src` directory, create a file called `Hello.java`. Within this file, write a Java 
-   program to prompt the user for their name, read in their full name and then output `Hello, <user>` with 
-   their name instead of `<user>`. <!--Your program should work **without any import statements**. Sure, 
-   [this is possible](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/packages2.md#import-statements)!
-   In your notes, write the full line of java code to instantiate a `Scanner` object without importing the class.-->
+1. Navigate to the `src` directory that you just created. In this example, `src` is the default package
+   directory for source code. Inside of the `src` directory, create a file called `Hello.java` using either the
+   `touch` command or using Emacs. Within this file, write a Java program to accomplish the following tasks:
+      * prompt the user for their name
+      * read in the user's full name
+      * output `Hello, <user>` with their name instead of `<user>`.
+  
+   **Remember**: Don't forget the class declaration and the `main` method! On Odin you have to type these out manually.
 
-1. Compile and run your code directly from the default package. Don't use the `-d` option for `javac`
-   in this step. In which directory is the compiled code contained?
+1. Compile and run your code directly from the default package for source code (the `src` directory in this example).
+   Don't use the `-d` option for `javac` in this step. In which directory is the compiled code contained?
 
-   Once you are confident that it is working, remove the _compiled_ (byte) code (not your source code).
+1. Execute the `tree` command from inside of your `src` directory. You should see output similar to this:
+
+   ```
+   .
+   ├── cs1302
+   │   └── example
+   ├── Hello.class
+   └── Hello.java
+   ```
+   
+1. This example demonstrates compiling without using a Java package. In the next step, we will use packages to further
+   organize our code. Once you are confident that it is working, delete the _compiled_ (byte) code
+   (the class file - not your source code).
 
 1. Move the `Hello.java` file (source code) into the `cs1302.example` package. What two things must be done to 
    accomplish this? Hint: [Named Packages](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/packages1.md#named-package)
@@ -96,11 +110,33 @@ guide for the exam.
 
 ### Checkpoint 2 Steps
 
-1. Navigate to the `homework1` folder and add a `cs1302.utility` package directory to your hierarchy. 
-   Add a class called `MyMethods` to this package. Add a single, static method to this class. You can
-   give it any valid name you want, but the body of the method should determine and return the bigger of 
+1. Navigate to the `homework1` folder and add a `cs1302.utility` package directory to your hierarchy.
+   **Note** the `utility` directory will need to be inside of the `cs1302` folder. In your notes, write
+   the command to create the `utility` folder in the proper location without changing out of the `homework1`
+   directory.
+
+1. Create a class called `MyMethods` in the `cs1302.utility` package. Make sure to type the class declaration.
+   This class won't need a `main` method because it won't be run directly.
+  
+1. Add a single, static method called `max` to the `MyMethods` class with the following signature:
+
+   ```java
+   /**
+    * Returns the larger of the two input parameters. If the parameters
+    * are equal, either value can be returned.
+    *
+    * @param num1 the first number to check.
+    * @param num2 the second number to check.
+    * @return the larger of the two parameters.
+    */
+   public static int max(int num1, int num2) {
+      // Your code here
+   } // max
+   ```
+
+3. Implement the body of the `max` method. The method should determine and return the bigger of 
    two `int` values supplied as parameters to the method. These values will be supplied when you call the 
-   method in a later step. What is the exact first line of code in `MyMethods.java`?
+   method in a later step. **Note:** You should not use the `Scanner` class inside of the `MyMethods` class.
    
    **PROTIP** Unless it is specifically stated, it is best to always work from the main project directory. 
    For example, while working on the source code for this exercise, you can modify all of the files without 
@@ -118,10 +154,9 @@ guide for the exam.
 
 1. Now, modify the `Hello` class in the `Hello.java` file. Have it print out the maximum of two values input by the 
    user. To accomplish this, in the `main` method of your `Hello` class, you should read two integers from a valid 
-   `Scanner` object and pass those values into the method you created in the `MyMethods` utility class. 
-   In other words, you should call the method in `MyMethods` from the `main` method in your `Hello` class and print
+   `Scanner` object and pass those values into the `max` method you created in the `MyMethods` utility class. 
+   In other words, you should call the `max` method in `MyMethods` from the `main` method in your `Hello` class and print
    the result.
-   What is the line of code to call this method, assuming you have **no import statements** in `Hello.java`?
   
 1. **TRICKY** What is the command to compile the `Hello` class from the `homework1` directory and place the 
    compiled code into `bin`? Note: there is now a dependency in `Hello.java`. It relies on the code
