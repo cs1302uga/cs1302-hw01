@@ -111,7 +111,7 @@ guide for the exam.
 ### Checkpoint 2 Steps
 
 1. Navigate to the `homework1` folder and add a `cs1302.utility` package directory to your hierarchy.
-   **Note** the `utility` directory will need to be inside of the `cs1302` folder. In your notes, write
+   **Note:** the `utility` directory will need to be inside of the `cs1302` folder. In your notes, write
    the command to create the `utility` folder in the proper location without changing out of the `homework1`
    directory.
 
@@ -138,7 +138,7 @@ guide for the exam.
    two `int` values supplied as parameters to the method. These values will be supplied when you call the 
    method in a later step. **Note:** You should not use the `Scanner` class inside of the `MyMethods` class.
    
-   **PROTIP** Unless it is specifically stated, it is best to always work from the main project directory. 
+   **PROTIP:** Unless it is specifically stated, it is best to always work from the main project directory. 
    For example, while working on the source code for this exercise, you can modify all of the files without 
    leaving the `homework1` directory by providing the relative path (using tab completion) to the file from 
    the `homework1` directory. This means you would **rarely use the `cd` command while working on an assignment**. 
@@ -158,7 +158,7 @@ guide for the exam.
    In other words, you should call the `max` method in `MyMethods` from the `main` method in your `Hello` class and print
    the result.
   
-1. **TRICKY** What is the command to compile the `Hello` class from the `homework1` directory and place the 
+1. **TRICKY:** What is the command to compile the `Hello` class from the `homework1` directory and place the 
    compiled code into `bin`? Note: there is now a dependency in `Hello.java`. It relies on the code
    from `MyMethods`, so the compiler needs to know where to find that class. 
    Hint: [Setting the Class Path](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/packages2.md#setting-the-class-path)
@@ -170,7 +170,7 @@ guide for the exam.
 1. Execute the `find` command from directly within your `homework1` directory. If the previous steps were 
    executed correctly, you should see the following output:
    
-   **Note:**  If you see any tilda (~) files, those are just backup copies of older versions 
+   **Note:**  If you see any tilde (~) files, those are just backup copies of older versions 
    of your files. You can ignore those.
    
    ```
