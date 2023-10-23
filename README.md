@@ -236,7 +236,7 @@ guide for the exam.
    various options.
 
 1. List the contents of your directory and make sure you see `homework1.tar.gz` instead of 
-   `homework1.tar`. Now, you have a compressed backup of your directory saved in the `.tar.gz file`.
+   `homework1.tar`. Now, you have a compressed backup of your directory saved in the `.tar.gz` file.
    
 1. Use the `submit` command to submit this exercise to `csci-1302`:
    
