@@ -246,8 +246,8 @@ guide for the exam.
    
    Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
    in that output. Additionally, if successful, the submit command creates a new receipt file in the directory you 
-   submitted. The receipt file begins with rec and contains a detailed list of all files that were successfully submitted. 
-   Look through the contents of the rec file and always remember to keep that file in case there is an issue with your submission.
+   submitted. The receipt file begins with `"rec"` and contains a detailed list of all files that were successfully submitted. 
+   Look through the contents of the receipt file and always remember to keep that file in case there is an issue with your submission.
 
    **Note:** You must be on Odin to submit.
 
