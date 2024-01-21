@@ -1,6 +1,6 @@
 # hw01 Command Line Compilation and Packages
 
-![Approved for: Fall 2023](https://img.shields.io/badge/Approved%20for-Fall%202023-green)
+![Approved for: Spring 2024](https://img.shields.io/badge/Approved%20for-Spring%202024-blue)
 
 This homework assignment is designed to provide further practice with command-line text editors as well as compiling Java code organized into 
 packages on a Unix system.
@@ -21,7 +21,7 @@ packages on a Unix system.
   
 ## Questions
 
-In your notes, clearly answer the questions in the following exercise steps. All instructions assume that you are 
+In your notes, answer the questions in the following exercise steps. All instructions assume that you are 
 logged into the Odin server.
 
 **NOTE:** For each step, please provide in your notes the full command that you typed to make the related 
@@ -45,13 +45,13 @@ guide for the exam.
    ```
 
 1. Navigate to the `src` directory that you just created. In this example, `src` is the default package
-   directory for source code. Inside of the `src` directory, create a file called `Hello.java` using either the
+   directory for source code. Inside the `src` directory, create a file called `Hello.java` using either the
    `touch` command or using Emacs. Within this file, write a Java program to accomplish the following tasks:
       * prompt the user for their name
       * read in the user's full name
       * output `Hello, <user>` with their name instead of `<user>`.
   
-   **Remember**: Don't forget the class declaration and the `main` method! On Odin you have to type these out manually.
+   **Remember**: Don't forget the class declaration and the `main` method! On Odin, you have to type these out manually.
 
 1. Compile and run your code directly from the default package for source code (the `src` directory in this example).
    Don't use the `-d` option for `javac` in this step. In which directory is the compiled code contained?
@@ -111,7 +111,7 @@ guide for the exam.
 ### Checkpoint 2 Steps
 
 1. Navigate to the `homework1` folder and add a `cs1302.utility` package directory to your hierarchy.
-   **Note:** the `utility` directory will need to be inside of the `cs1302` folder. In your notes, write
+   **Note:** The `utility` directory will need to be inside of the `cs1302` folder. In your notes, write
    the command to create the `utility` folder in the proper location without changing out of the `homework1`
    directory.
 
