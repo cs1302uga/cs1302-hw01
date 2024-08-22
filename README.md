@@ -219,7 +219,7 @@ guide for the exam.
 
    **Note:** You must be on Odin to submit.
 
-**If you would like to make a copy of your homework assignment into a single, zipped file, follow the steps below**
+**If you would like to make a copy of your homework assignment into a single, zipped file, follow the steps below (not required)**
 
 1. Change directories to the parent of `homework1` (e.g., `cd ..` from `homework1`). We will use the 
    `tar` command to combine our directory hierarchy into a single file for backup purposes. 
