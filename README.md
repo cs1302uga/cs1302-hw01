@@ -1,16 +1,14 @@
 # hw01 Command Line Compilation and Packages
 
-![Approved for: Spring 2024](https://img.shields.io/badge/Approved%20for-Spring%202024-blue)
+![Approved for: Fall 2024](https://img.shields.io/badge/Approved%20for-Fall%202024-blue)
 
-This homework assignment is designed to provide further practice with command-line text editors as well as compiling Java code organized into 
-packages on a Unix system.
+This homework assignment is designed to provide further practice with command-line text editors 
+as well as compiling Java code organized into packages on a Unix system.
 
 ## Prerequisite Knowledge
 
-* [Emacs Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/emacs/emacs.md)
-* [CSCI 1302 Package Tutorial - Part 1](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/packages1.md)
-* [CSCI 1302 Package Tutorial - Part 2](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/packages2.md)
-* [Emacs Reference Card](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
+* [Emacs Chapter](https://cs1302uga.github.io/cs1302-book/tools/emacs/emacs-index.html)
+* [Package Chapter](https://cs1302uga.github.io/cs1302-book/java/packages/packages-index.html)
 
 ## Course-Specific Learning Outcomes
 
@@ -158,10 +156,9 @@ guide for the exam.
    In other words, you should call the `max` method in `MyMethods` from the `main` method in your `Hello` class and print
    the result.
   
-1. **TRICKY:** What is the command to compile the `Hello` class from the `homework1` directory and place the 
+1. What is the command to compile the `Hello` class from the `homework1` directory and place the 
    compiled code into `bin`? Note: there is now a dependency in `Hello.java`. It relies on the code
    from `MyMethods`, so the compiler needs to know where to find that class. 
-   Hint: [Setting the Class Path](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/packages2.md#setting-the-class-path)
 
 1. Now, add the import statement for `MyMethods` in `Hello.java` and replace applicable fully 
    qualified names with simple names. Rerun your code to make sure it is working. From the `homework1` 
@@ -208,6 +205,22 @@ guide for the exam.
    Sally Smith (811-000-999)
    ```
 
+1. From the parent directory of the `homework1` folder, use the `submit` command to submit
+   this assignment to `csci-1302`:
+   
+   ```
+   $ submit homework1 csci-1302
+   ```
+   
+   Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
+   in that output. Additionally, if successful, the `submit` command creates a new receipt file in the directory you 
+   submitted. The receipt file begins with "rec" and contains a detailed list of all files that were successfully submitted. 
+   Look through the contents of the receipt file and always remember to keep that file in case there is an issue with your submission.
+
+   **Note:** You must be on Odin to submit.
+
+**If you would like to make a copy of your homework assignment into a single, zipped file, follow the steps below**
+
 1. Change directories to the parent of `homework1` (e.g., `cd ..` from `homework1`). We will use the 
    `tar` command to combine our directory hierarchy into a single file for backup purposes. 
    To do this, execute the command:
@@ -238,18 +251,7 @@ guide for the exam.
 1. List the contents of your directory and make sure you see `homework1.tar.gz` instead of 
    `homework1.tar`. Now, you have a compressed backup of your directory saved in the `.tar.gz` file.
    
-1. Use the `submit` command to submit this exercise to `csci-1302`:
-   
-   ```
-   $ submit homework1 csci-1302
-   ```
-   
-   Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
-   in that output. Additionally, if successful, the `submit` command creates a new receipt file in the directory you 
-   submitted. The receipt file begins with "rec" and contains a detailed list of all files that were successfully submitted. 
-   Look through the contents of the receipt file and always remember to keep that file in case there is an issue with your submission.
 
-   **Note:** You must be on Odin to submit.
 
 <hr/>
 
