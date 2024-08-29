@@ -155,14 +155,12 @@ guide for the exam.
    `Scanner` object and pass those values into the `max` method you created in the `MyMethods` utility class. 
    In other words, you should call the `max` method in `MyMethods` from the `main` method in your `Hello` class and print
    the result.
+
+   **Note:** You will need to import `MyMethods` in `Hello.java`.
   
 1. What is the command to compile the `Hello` class from the `homework1` directory and place the 
    compiled code into `bin`? Note: there is now a dependency in `Hello.java`. It relies on the code
    from `MyMethods`, so the compiler needs to know where to find that class. 
-
-1. Now, add the import statement for `MyMethods` in `Hello.java` and replace applicable fully 
-   qualified names with simple names. Rerun your code to make sure it is working. From the `homework1` 
-   directory, what is the single command to run the `Hello` program?
    
 1. Execute the `find` command from directly within your `homework1` directory. If the previous steps were 
    executed correctly, you should see the following output:
