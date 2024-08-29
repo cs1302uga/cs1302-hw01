@@ -82,7 +82,7 @@ guide for the exam.
 1. From your home directory (not `homework1`), what is the single command to run the `Hello` 
    program?
 
-1. Execute the `find` command from directly within your `homework1` directory. If the previous steps were 
+1. Execute the `tree` command from directly within your `homework1` directory. If the previous steps were 
    executed correctly, you should see the following output:
    
    **Note:**  If you see any tilda (~) files, those are just backup copies of older versions 
@@ -90,14 +90,16 @@ guide for the exam.
    
    ```
    .
-   ./src
-   ./src/cs1302
-   ./src/cs1302/example
-   ./src/cs1302/example/Hello.java
-   ./bin
-   ./bin/cs1302
-   ./bin/cs1302/example
-   ./bin/cs1302/example/Hello.class
+   ├── bin
+   │   └── cs1302
+   │       └── example
+   │           └── Hello.class
+   └── src
+       └── cs1302
+           └── example
+               └── Hello.java
+
+   6 directories, 2 files
    ```
    
 <hr/>
@@ -162,7 +164,7 @@ guide for the exam.
    compiled code into `bin`? Note: there is now a dependency in `Hello.java`. It relies on the code
    from `MyMethods`, so the compiler needs to know where to find that class. 
    
-1. Execute the `find` command from directly within your `homework1` directory. If the previous steps were 
+1. Execute the `tree` command from directly within your `homework1` directory. If the previous steps were 
    executed correctly, you should see the following output:
    
    **Note:**  If you see any tilde (~) files, those are just backup copies of older versions 
@@ -170,18 +172,20 @@ guide for the exam.
    
    ```
    .
-   ./src
-   ./src/cs1302
-   ./src/cs1302/example
-   ./src/cs1302/example/Hello.java
-   ./src/cs1302/utility
-   ./src/cs1302/utility/MyMethods.java
-   ./bin
-   ./bin/cs1302
-   ./bin/cs1302/example
-   ./bin/cs1302/example/Hello.class
-   ./bin/cs1302/utility
-   ./bin/cs1302/utility/MyMethods.class
+   ├── bin
+   │   └── cs1302
+   │       ├── example
+   │       │   └── Hello.class
+   │       └── utility
+   │           └── MyMethods.class
+   └── src
+       └── cs1302
+           ├── example
+           │   └── Hello.java
+           └── utility
+               └── MyMethods.java
+
+   8 directories, 4 files
    ```
    
 <hr/>
