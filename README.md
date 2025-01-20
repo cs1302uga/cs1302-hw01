@@ -98,8 +98,6 @@ guide for the exam.
        └── cs1302
            └── example
                └── Hello.java
-
-   6 directories, 2 files
    ```
    
 <hr/>
@@ -149,7 +147,7 @@ guide for the exam.
    `MyMethods.java` and place the byte code in the `bin` directory? Remember, there are no dependencies
    when compiling `MyMethods.java` as it does not depend on any other source code.
 
-   Look in the `bin` directory now that you've compiled both `Hello.java` and `MyMethods.java`. 
+   Now that you've compiled both Hello.java and MyMethods.java, look in the `bin` directory. 
    Notice the directory hierarchy that was automatically created.
 
 1. Now, modify the `Hello` class in the `Hello.java` file. Have it print out the maximum of two values input by the 
@@ -158,7 +156,7 @@ guide for the exam.
    In other words, you should call the `max` method in `MyMethods` from the `main` method in your `Hello` class and print
    the result.
 
-   **Note:** You will need to import `MyMethods` in `Hello.java`.
+   **Note:** You must import `MyMethods` in `Hello.java`.
   
 1. What is the command to compile the `Hello` class from the `homework1` directory and place the 
    compiled code into `bin`? Note: there is now a dependency in `Hello.java`. It relies on the code
@@ -184,8 +182,6 @@ guide for the exam.
            │   └── Hello.java
            └── utility
                └── MyMethods.java
-
-   8 directories, 4 files
    ```
    
 <hr/>
